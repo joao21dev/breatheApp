@@ -42,8 +42,8 @@ body {
   background: conic-gradient(
     #c78226 0%,
     #9c5f14 40%,
-    #fff 40%,
-    #fff 60%,
+    /* #fff 40%,
+    #fff 60%, */
     #2a4d31 60%,
     #1c3421 100%
   );
@@ -55,7 +55,7 @@ body {
   top: -10px;
   left: -10px;
 }
-
+/* 
 .pointer {
   background-color: #fff;
   border-radius: 50%;
@@ -82,7 +82,7 @@ body {
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 .container.grow {
   animation: grow 3s linear forwards;
